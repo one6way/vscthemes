@@ -29,55 +29,12 @@
 3. Нажмите "..." и выберите "Install from VSIX..."
 4. Выберите файл `.vsix` из папки темы
 
-### Публикация в Marketplace
-См. `PUBLISH_GUIDE.md` для подробной инструкции по публикации.
-
-## 🎨 Особенности
-
-- ✅ Полная поддержка VS Code и Cursor
-- ✅ Настроенный терминал в стиле хакерской консоли
-- ✅ Поддержка всех языков программирования
-- ✅ MIT лицензия - свободное использование
-
-## 📁 Структура
-
-```
-MY_VSCODE_THEMES/
-├── roborobot-classic/          # Классическая тема
-│   ├── themes/
-│   │   └── roborobot-classic.json
-│   ├── package.json
-│   ├── README.md
-│   └── LICENSE.md
-├── roborobot-authentic/        # Аутентичная тема
-│   ├── themes/
-│   │   └── roborobot-authentic.json
-│   ├── package.json
-│   ├── README.md
-│   └── LICENSE.md
-├── gta4-liberty-city/          # GTA IV тема
-│   ├── themes/
-│   │   └── gta4-liberty-city.json
-│   ├── package.json
-│   ├── README.md
-│   └── LICENSE.md
-├── LICENSE.md                  # Основная лицензия
-├── LEGAL_NOTICE.md            # Юридическая информация
-├── PUBLISH_GUIDE.md           # Руководство по публикации
-└── README.md                  # Этот файл
-```
-
 ## 🚀 Быстрый старт
 
 1. **Выберите тему** из папок выше
 2. **Упакуйте тему**: `cd roborobot-classic && vsce package`
 3. **Установите**: Через VS Code Extensions → Install from VSIX
 4. **Примените**: Ctrl+Shift+P → "Preferences: Color Theme" → выберите тему
-
-## 📝 Лицензия
-
-MIT License - см. `LICENSE.md` для подробностей.
-
----
+MIT License
 
 **Создано с ❤️ для сообщества разработчиков**
