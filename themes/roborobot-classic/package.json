@@ -1,0 +1,52 @@
+{
+  "name": "roborobot-classic-theme",
+  "displayName": "RoboRobot Classic Theme",
+  "description": "Dark theme with bright matrix-style colors inspired by cyberpunk aesthetics",
+  "version": "1.0.0",
+  "publisher": "on6",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cyberpunk",
+    "matrix",
+    "terminal",
+    "green",
+    "red",
+    "neon",
+    "robot",
+    "futuristic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RoboRobot Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/roborobot-classic.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/roborobot-themes.git"
+  },
+  "homepage": "https://github.com/your-username/roborobot-themes#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/roborobot-themes/issues"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "preview": true,
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}

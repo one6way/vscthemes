@@ -1,0 +1,52 @@
+{
+  "name": "gta4-liberty-city-theme",
+  "displayName": "GTA IV Liberty City Theme",
+  "description": "Dark theme inspired by Grand Theft Auto IV's Liberty City atmosphere with urban colors and neon accents",
+  "version": "1.0.0",
+  "publisher": "on6",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "gta",
+    "gta4",
+    "liberty-city",
+    "urban",
+    "neon",
+    "orange",
+    "cyberpunk",
+    "gaming"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GTA IV Liberty City",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gta4-liberty-city.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gta4-liberty-city-theme.git"
+  },
+  "homepage": "https://github.com/your-username/gta4-liberty-city-theme#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/gta4-liberty-city-theme/issues"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "preview": true,
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "roborobot-authentic-theme",
+  "displayName": "RoboRobot Authentic Theme",
+  "description": "Dark theme with authentic cyberpunk colors - comfortable for long coding sessions",
+  "version": "1.0.0",
+  "publisher": "on6",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cyberpunk",
+    "authentic",
+    "terminal",
+    "comfortable",
+    "professional",
+    "robot",
+    "futuristic"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RoboRobot Authentic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/roborobot-authentic.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/roborobot-themes.git"
+  },
+  "homepage": "https://github.com/your-username/roborobot-themes#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/roborobot-themes/issues"
+  },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#0d1117",
+    "theme": "dark"
+  },
+  "preview": true,
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}

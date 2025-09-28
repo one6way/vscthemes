@@ -1,0 +1,41 @@
+{
+  "name": "vscthemes",
+  "version": "1.0.0",
+  "description": "A collection of custom dark themes for VS Code and Cursor",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:all",
+    "build:all": "npm run build:roborobot-classic && npm run build:roborobot-authentic && npm run build:gta4",
+    "build:roborobot-classic": "cd themes/roborobot-classic && vsce package",
+    "build:roborobot-authentic": "cd themes/roborobot-authentic && vsce package",
+    "build:gta4": "cd themes/gta4-liberty-city && vsce package",
+    "publish:all": "npm run publish:roborobot-classic && npm run publish:roborobot-authentic && npm run publish:gta4",
+    "publish:roborobot-classic": "cd themes/roborobot-classic && vsce publish",
+    "publish:roborobot-authentic": "cd themes/roborobot-authentic && vsce publish",
+    "publish:gta4": "cd themes/gta4-liberty-city && vsce publish",
+    "clean": "find . -name '*.vsix' -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/one6way/vscthemes.git"
+  },
+  "keywords": [
+    "vscode",
+    "themes",
+    "dark",
+    "cyberpunk",
+    "gta",
+    "matrix",
+    "hacker",
+    "cursor"
+  ],
+  "author": "one6way",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/one6way/vscthemes/issues"
+  },
+  "homepage": "https://github.com/one6way/vscthemes#readme",
+  "devDependencies": {
+    "@vscode/vsce": "^2.15.0"
+  }
+}
