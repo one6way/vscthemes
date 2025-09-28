@@ -1,0 +1,163 @@
+{
+    "workbench.colorTheme": "GTA IV Liberty City",
+    "workbench.colorCustomizations": {
+        "editor.background": "#0a0a0a",
+        "editor.foreground": "#e0e0e0",
+        "editorLineNumber.foreground": "#8a8a8a",
+        "editor.selectionBackground": "#3a3a3a",
+        "editor.selectionForeground": "#ffffff",
+        "editorCursor.foreground": "#ff6b35",
+        "terminal.background": "#0a0a0a",
+        "terminal.foreground": "#e0e0e0",
+        "terminalCursor.foreground": "#ff6b35",
+        "activityBar.background": "#1a1a1a",
+        "activityBar.foreground": "#e0e0e0",
+        "sideBar.background": "#1a1a1a",
+        "sideBar.foreground": "#e0e0e0",
+        "editorGroupHeader.tabsBackground": "#1a1a1a",
+        "tab.activeBackground": "#2a2a2a",
+        "tab.inactiveBackground": "#1a1a1a",
+        "statusBar.background": "#1a1a1a",
+        "statusBar.foreground": "#e0e0e0",
+        "button.background": "#ff6b35",
+        "button.foreground": "#ffffff",
+        "input.background": "#1a1a1a",
+        "input.foreground": "#e0e0e0",
+        "input.border": "#3a3a3a",
+        "list.activeSelectionBackground": "#3a3a3a",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.hoverBackground": "#2a2a2a",
+        "notificationCenter.border": "#ff6b35",
+        "notificationCenterHeader.foreground": "#e0e0e0",
+        "notificationCenterHeader.background": "#1a1a1a",
+        "notificationToast.background": "#1a1a1a",
+        "notificationToast.foreground": "#e0e0e0",
+        "notificationLink.foreground": "#ff6b35",
+        "pickerGroup.foreground": "#ff6b35",
+        "pickerGroup.border": "#3a3a3a",
+        "progressBar.background": "#ff6b35",
+        "badge.background": "#ff6b35",
+        "badge.foreground": "#ffffff",
+        "scrollbarSlider.background": "#3a3a3a",
+        "scrollbarSlider.hoverBackground": "#4a4a4a",
+        "scrollbarSlider.activeBackground": "#5a5a5a",
+        "editorWidget.background": "#1a1a1a",
+        "editorWidget.border": "#3a3a3a",
+        "editorSuggestWidget.background": "#1a1a1a",
+        "editorSuggestWidget.border": "#3a3a3a",
+        "editorSuggestWidget.selectedBackground": "#3a3a3a",
+        "editorHoverWidget.background": "#1a1a1a",
+        "editorHoverWidget.border": "#3a3a3a",
+        "debugToolBar.background": "#1a1a1a",
+        "debugToolBar.border": "#3a3a3a",
+        "editor.wordHighlightBackground": "#3a3a3a",
+        "editor.findMatchBackground": "#ff6b3550",
+        "editor.findMatchHighlightBackground": "#ff6b3580",
+        "editor.lineHighlightBackground": "#1a1a1a",
+        "editor.lineHighlightBorder": "#3a3a3a",
+        "editorGutter.background": "#0a0a0a",
+        "editorGutter.addedBackground": "#2ed573",
+        "editorGutter.modifiedBackground": "#ffa502",
+        "editorGutter.deletedBackground": "#ff4757",
+        "diffEditor.insertedTextBackground": "#2ed57330",
+        "diffEditor.removedTextBackground": "#ff475730",
+        "gitDecoration.modifiedResourceForeground": "#ffa502",
+        "gitDecoration.deletedResourceForeground": "#ff4757",
+        "gitDecoration.untrackedResourceForeground": "#2ed573",
+        "gitDecoration.ignoredResourceForeground": "#8a8a8a",
+        "gitDecoration.conflictingResourceForeground": "#ff6b35",
+        "settings.headerForeground": "#ff6b35",
+        "settings.modifiedItemIndicator": "#ff6b35",
+        "settings.dropdownBackground": "#1a1a1a",
+        "settings.dropdownForeground": "#e0e0e0",
+        "settings.dropdownBorder": "#3a3a3a",
+        "settings.textInputBackground": "#1a1a1a",
+        "settings.textInputForeground": "#e0e0e0",
+        "settings.textInputBorder": "#3a3a3a",
+        "settings.numberInputBackground": "#1a1a1a",
+        "settings.numberInputForeground": "#e0e0e0",
+        "settings.numberInputBorder": "#3a3a3a",
+        "settings.checkboxBackground": "#1a1a1a",
+        "settings.checkboxForeground": "#e0e0e0",
+        "settings.checkboxBorder": "#3a3a3a"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#8a8a8a"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#ff6b35"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#ffa502"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#1e90ff"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#00cec9"
+                }
+            },
+            {
+                "scope": "support.function",
+                "settings": {
+                    "foreground": "#1e90ff"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#ff6b35"
+                }
+            },
+            {
+                "scope": "storage.modifier",
+                "settings": {
+                    "foreground": "#ff6b35"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#7bed9f"
+                }
+            },
+            {
+                "scope": "constant.language",
+                "settings": {
+                    "foreground": "#ff4757"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground": "#48dbfb"
+                }
+            },
+            {
+                "scope": "entity.other.inherited-class",
+                "settings": {
+                    "foreground": "#48dbfb"
+                }
+            }
+        ]
+    }
+}
+
+
+
